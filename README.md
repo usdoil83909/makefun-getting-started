@@ -4,7 +4,7 @@
 
 # Getting started with make.fun
 
-New to make.fun? This guide walks you from account setup to a finished bounty entry.
+New to make.fun? This guide takes you from account setup through a finished bounty entry.
 
 ## Join make.fun
 
@@ -29,28 +29,25 @@ After signing up, save the sign-in method you used and return to it when you vis
 - [Step 6: Check your entry and resubmit](#step-6-check-your-entry-and-resubmit)
 - [Step 7: Claim rewards](#step-7-claim-rewards)
 - [Tips for doing well](#tips-for-doing-well)
+- [Tips for your first entry](#tips-for-your-first-entry)
 - [Frequently asked questions](#frequently-asked-questions)
 - [A short checklist](#a-short-checklist)
 
 ## What make.fun is
 
-make.fun is a competition platform for software bounties.
-
-Each bounty describes a piece of software to build and explains how entries are evaluated.
+make.fun is a competition platform for software bounties. Each bounty explains what to build and how entries are evaluated.
 
 People can work with AI coding agents to create and submit entries.
 
-An entry is usually a public code repository together with records of the AI sessions that built it.
+An entry is usually a public code repository plus records of the AI sessions that built it.
 
 The exact entry requirements depend on the bounty.
 
-Automatic checks look for required files and other conditions listed by the bounty.
-
-Entries that pass checks are graded according to that bounty's published method.
+Automatic checks verify required files and other listed conditions. Passing entries are graded using the bounty's published method.
 
 The leaderboard shows the current standings for the competition.
 
-The final ranking is determined after the bounty closes and its final evaluation is complete.
+The final ranking is set after the bounty closes and evaluation is complete.
 
 Rewards are offered for the places listed on the bounty page.
 
@@ -58,7 +55,7 @@ An entry that does not finish in a paid place does not receive a bounty reward.
 
 Most bounties are free to enter.
 
-If a bounty has an entry fee, its page explains the fee before you enter.
+Any entry fee is shown on the bounty page before you enter.
 
 Rewards are claimed by winners in USDC on Solana.
 
@@ -68,7 +65,7 @@ Winning is not guaranteed, and the amount of work does not by itself determine a
 
 A bounty is a time-limited challenge with a defined goal.
 
-The page describes what to build, what to submit, when entries close, and how results are decided.
+The page explains what to build and submit, when entries close, and how results are decided.
 
 The page may also list a reward total, individual paid places, technical requirements, or an entry fee.
 
@@ -86,7 +83,7 @@ Read the whole page before deciding to participate.
 
 Some details vary from one bounty to another.
 
-For example, a bounty may require a certain language, a public repository, a screenshot, or a session transcript.
+For example, a bounty may require a specific language, public repository, screenshot, or session transcript.
 
 Never assume one bounty's checklist applies to all the others.
 
@@ -172,23 +169,19 @@ Use your own account details and keep access to your chosen sign-in method.
 
 If the site asks you to connect a wallet, check that you recognize the wallet and understand what the connection does.
 
-A connection request is not the same thing as authorizing an unrelated transaction.
+Connecting a wallet is different from approving a transaction.
 
 Read wallet prompts carefully before approving them.
 
-Once signed in, take a moment to become familiar with your profile and account pages.
+Once signed in, get familiar with your profile and account pages.
 
 Find the area where entries, notifications, or rewards are shown.
-
-You do not need to rush through this step.
 
 ## Step 2: Pick a bounty
 
 Browse the [open bounties](https://make.fun) and choose one that fits your interests and available time.
 
-Open the bounty page rather than relying on a short listing card.
-
-Read the full task description from beginning to end.
+Open the full bounty page and read the task description rather than relying on a short listing card.
 
 Identify exactly what the entry must do or contain.
 
@@ -208,9 +201,7 @@ Review the scoring method and the number of paid places.
 
 Look at the reward details and any entry fee before you commit your time.
 
-Consider whether the tools and skills required are available to you.
-
-If a prerequisite is unclear or unavailable, resolve that before doing substantial work.
+Check that you have the required tools and can meet any prerequisites before doing substantial work.
 
 Choose a challenge where you can make a thoughtful, complete submission before it closes.
 
@@ -218,7 +209,7 @@ Choose a challenge where you can make a thoughtful, complete submission before i
 
 When a bounty provides a kit, use the download link or instructions on that bounty's page.
 
-The kit is a starter package with instructions or tools intended to help prepare and check an entry.
+The kit is a starter package of instructions or tools for preparing and checking an entry.
 
 The contents differ between bounties.
 
@@ -230,9 +221,9 @@ Keep the downloaded kit in a dedicated working folder.
 
 Do not edit a starter file until you understand whether the task expects you to preserve it.
 
-If the page links to a command-line workflow, copy commands carefully and run them from the directory the instructions specify.
+For a command-line workflow, copy commands carefully and run them from the specified directory.
 
-If a command fails, read the error and compare your environment with the kit's documented requirements.
+If a command fails, read the error and compare your setup with the kit's requirements.
 
 Use the bounty's own kit and instructions rather than assuming that a different competition's kit is interchangeable.
 
@@ -244,7 +235,7 @@ If the bounty does not provide a kit, follow the submission instructions on its 
 
 Write down the main requirements in your own words.
 
-Separate must-have behavior from optional improvements.
+Separate required behavior from optional improvements.
 
 Choose a first version that can satisfy the core task.
 
@@ -268,7 +259,7 @@ If the project needs setup instructions, document the necessary steps in its REA
 
 Give your coding agent the task brief and the relevant rules.
 
-Ask it to explain its plan before it makes large changes.
+Ask it to outline its plan before large changes.
 
 Work in manageable steps so you can inspect the result as it develops.
 
@@ -434,6 +425,15 @@ Check the destination and network before approving wallet actions.
 
 Do not put API keys or credentials in a public repository or an entry artifact.
 
+## Tips for your first entry
+
+1. **Choose a focused bounty.** Pick a task whose requirements and tools fit your available time.
+2. **Turn the brief into a checklist.** Track each required feature, file, and proof item as you work.
+3. **Get a small version running early.** Confirm the basic setup works before adding optional polish.
+4. **Save work in clear milestones.** Use descriptive commits or backups so you can recover a known-good version.
+5. **Test from the reviewer's perspective.** Follow the documented setup steps and try the main user flow from a clean start.
+6. **Submit with time to spare.** Confirm the status page received your entry and fix any reported issues before closing.
+
 ## Frequently asked questions
 
 ### Is make.fun a job?
@@ -481,6 +481,26 @@ Check the entry instructions before building around a different format.
 Some bounties allow resubmissions before the deadline.
 
 Use the entry status and instructions for that specific bounty to understand its limits.
+
+### What happens if I miss the deadline?
+
+The page may stop accepting entries when the deadline passes. Check the bounty's time zone and submit early; any exceptions or late-entry rules are specific to that bounty.
+
+If you already submitted, whether you can still make changes or resubmit depends on its rules.
+
+### Can I update my entry after submitting?
+
+Follow the bounty's resubmission process. Pushing a new repository commit may not automatically update the version attached to your entry.
+
+Check the entry page to confirm which version was received.
+
+### Do I need a wallet to start?
+
+You need a wallet you control to claim a reward if you win. Check the bounty and account prompts for any additional requirements before entering.
+
+### Can I enter as part of a team?
+
+Team and collaborator rules vary by bounty. Check its eligibility and submission requirements to see who may contribute and which account should submit.
 
 ### Why did my entry fail a check?
 
